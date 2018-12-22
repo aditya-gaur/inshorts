@@ -1,0 +1,35 @@
+@import "~antd/dist/antd.css";
+
+.App {
+  text-align: center;
+}
+
+.card__left {
+  width: 65%;
+}
+
+.card__right {
+  width: 35%;
+}
+
+.image__big {
+  width: 300px;
+}
+
+.text__right {
+  text-align: right;
+}
+
+.author__title {
+  color: grey;
+  font-weight: bold;
+}
+
+icons__wrapper {
+  font-size: 15px;
+}
+
+.icons {
+  cursor: pointer;
+  margin: 10px;
+}
