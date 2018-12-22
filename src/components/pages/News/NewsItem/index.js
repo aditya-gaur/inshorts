@@ -29,7 +29,7 @@ export default ({ item, handleBookmark, handleLike }) => {
         />,
         <Icon onClick={handleLike.bind(this, id)} type="like-o" text={likes} />
       ]}
-      extra={<img style={{ maxWidth: "240px" }} alt="logo" src={urlToImage} />}
+      extra={<img className="image__small" alt="logo" src={urlToImage} />}
     >
       <List.Item.Meta
         title={<a href={href}>{title}</a>}

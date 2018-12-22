@@ -16,6 +16,10 @@
   width: 300px;
 }
 
+.image__small {
+  max-width: 240px;
+}
+
 .text__right {
   text-align: right;
 }
